@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 976px;
+  --breakpoint-xl: 1280px;
+}
+
+@layer components {
+  
+   .btn-0 {
+    @apply border-1 hover:border-black hover:bg-gray-300 text-black hover:text-white font-bold px-4 py-2 rounded ;
+  }
+
+  .btn-1 {
+    @apply border-1 hover:border-black bg-red-300 hover:bg-red-500 text-black hover:text-white font-bold px-4 py-2 rounded;
+  }
+
+  .btn-2 {
+    @apply border-1 hover:border-black bg-blue-300 hover:bg-blue-500 text-black hover:text-white font-bold px-4 py-2 rounded ;
+  }
+
+  .btn-3 {
+    @apply border-1 hover:border-black bg-green-300 hover:bg-green-500 text-black hover:text-white font-bold px-4 py-2 rounded;
+  }
+
+  .btn-4 {
+    @apply border-1 hover:border-black bg-gray-300 hover:bg-gray-500 text-black hover:text-white font-bold px-4 py-2 rounded;
+  }
+
+
+
+  .navbar-background {
+    @apply bg-emerald-400
+  }
+
+  .nav-menuitem {
+    @apply text-black hover:text-white font-bold  py-2 px-3 block ;
+  }
+
+  .nav-dropdown {
+    @apply bg-emerald-600 hover:text-white font-bold block px-6 py-2;
+  }
+
+  .nav-dropdownitem {
+    @apply bg-emerald-400 hover:bg-emerald-600 hover:text-white font-bold block px-6 py-2;
+  }
+
+
+.bg-secondary {
+    @apply bg-neutral-300;
+  }
+
+
+.text-secondary {
+    @apply text-gray-500;
+  }
+
+
+
+
+
+}
