@@ -19,5 +19,5 @@ resource "aws_lambda_permission" "sns_permission" {
 resource "aws_sns_topic_subscription" "email_subscription" {
   topic_arn = aws_sns_topic.textract_topic.arn
   protocol  = "email"
-  endpoint  = "collin.smith@bounteous.com" # Replace with the desired email address
+  endpoint  = "youremail@yourcompany.com" # Replace with the desired email address
 }
